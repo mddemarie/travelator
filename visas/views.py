@@ -4,4 +4,4 @@ from django.http import HttpResponse
 
 
 def index(request):
-    return HttpResponse("The travelator")
+    return render(request, 'visas/index.html', {})
